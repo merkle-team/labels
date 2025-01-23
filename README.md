@@ -2,7 +2,7 @@
 
 Warpacst produces [labels](https://github.com/farcaster/labels) to categorize Farcaster accounts which are made public here.
 
-## [Spam](https://github.com/warpcast/backend/blob/main/spam.jsonl)
+## [Spam](https://github.com/warpcast/labels/blob/main/spam.jsonl)
 
 Warpcast's spam models predict the probability that an account might exhibit spammy behavior. Spam is defined as behavior that intentionally generates notifications for other users in a way that benefits the author and annoys users who receieve them. Some examples include replying with generic llm generated responses, bulk following accounts, posting irrelevant or generally offensive responses to other people's posts. Spamminess is not related to whether an account is being controlled by a human. There are many bots that are not spammy and many humans that are.
 
