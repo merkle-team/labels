@@ -14,7 +14,8 @@ Our dataset for spam has the label_type column is set to spam and the values can
 |-------|----------------------------------------|
 | 0     | Likely to engage in spammy behavior.   |
 | 2     | Unlikely to engage in spammy behavior. |
+| 3     | Nerfed for malicious activity.         |
 
-N.b. As of 2025-05-22 we have moved to a binary label system and the 1 category (might engage in spammy behavior) has been deprecated and removed from the dataset.
+N.b. As of 2025-05-22 the 1 category (might engage in spammy behavior) has been deprecated and removed from the dataset.
 
 Spam labels are updated weekly. Accounts that are not present are "unknown" either because there isn't enough data or because the account hasn't been active recently. 
